@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>密码访问</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			font-family: sans-serif;
+			background-color: #f8f8f8;
+		}
+
+		h1 {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 1rem;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			background-color: #fff;
+			box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+		}
+
+		input {
+			padding: 0.5rem;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			margin-bottom: 1rem;
+			width: 100%;
+			box-sizing: border-box;
+		}
+
+		button {
+			padding: 0.5rem 1rem;
+			background-color: #007bff;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+			font-size: 1rem;
+			transition: background-color 0.2s;
+		}
+
+		button:hover {
+			background-color: #0069d9;
+		}
+
+		@media (min-width: 768px) {
+			form {
+				width: 50%;
+			}
+		}
+
+		@media (min-width: 992px) {
+			form {
+				width: 30%;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+	<form onsubmit="return checkPassword()">
+		<h1 align="center" style=" 
+                    font-size: 25px; 
+                    color:#152c5b; 
+                    font-weight:bold;
+                     margin-bottom: 20px;
+                    ">输入密码解锁此网址</h1>
+        <p align="center" style="
+                    color:#7f8da0;  
+                    font-size: 15px;
+                    margin-bottom: 40px;
+                    ">此网址的访问受到限制，请输入密码进行查看</p>
+		
+		<input type="password" id="password" name="password">
+		<button type="submit" class="btn btn-primary" style=" margin-bottom: 20px;">解锁</button>
+		
+	</form>
+	<div style="text-align: center;">
+  <h5><a href="https://sourl.cn/VRG6vE">密码获取详细教程</a></h5>
+  <h3><a>↓ 获取密码方法 ↓</a></h3>
+  <div style="display: flex; justify-content: center;">
+    <img style="max-width: 60%; height: auto;" src="https://file.service.qq.com/outside-files/20230416/202304161841204194.jpeg" alt="暂无图片">
+  </div>
+  <p style="text-align: center;"><a>长按图片保存用VX扫一扫二维码<br>点击右下角详情，观看广告后自动复制密码！</a></p>
+</div>
+
+	
+	<script>
+		function checkPassword() {
+			var password = document.getElementById("password").value;
+			if (password === "7788") { 
+				window.location.href = "https://yaoyaoyao558822.github.io/4S16L184447.html"; 
+				return false;
+			} else {
+				alert("密码错误，请重新输入！");
+				return false;
+			}
+		}
+	</script>
+	<script type="text/javascript" charset="utf-8" src="//crossfb-70080.picnjc.qpic.cn/g.52000000-r.e620f/1680755552306_hf_0"></script>
+</body>
+</html>
