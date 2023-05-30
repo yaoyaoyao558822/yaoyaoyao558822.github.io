@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" charset="utf-8" >
+let url = window.location.href;
+if (url.indexOf('_t=') === -1) {
+  url += (url.indexOf('?') === -1 ? '?' : '&') + '_t=' + Date.now();
+  window.location.replace(url);
+}
+</script>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+  <meta name="referrer" content="no-referrer"/>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.3/skins/default/aliplayer-min.css" />
+<script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.3/aliplayer-min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="https://player.alicdn.com/aliplayer/presentation/js/aliplayercomponents.min.js"></script>
+ <style type="text/css">
+    body,html{width:100%;height:100%;background:#000;padding:0;margin:0;overflow-x:hidden;overflow-y:hidden}
+    *{margin:0;border:0;padding:0;text-decoration:none}
+    .btn.btn-lg {padding: 10px 80px;}.btn.btn-hero,.btn.btn-hero:hover,.btn.btn-hero:focus {color: #f5f5f5;background-color: #3498db;border-color: #3498db;outline: none;margin: 20px auto;cursor:pointer;text-align:center}
+</style>
+</head>
+<body>
+<div id="playerCnt" class="prism-player"></div>
+<div style="text-align:center">
+    <a href="https://b.r.sn.cn/qL8W2e" target="_blank"><button class="btn btn-hero btn-lg" role="button">鐐规垜杩涙渶鏂板悆鍛辩兢</button></a>
+</div>
+<script type="text/javascript">var player=new Aliplayer({id:"playerCnt","source":"https://yanxuan.nosdn.127.net/f34656ca1da378b3dc8df60dbc1f82c8.m3u8",width:"100%",height:"90%",autoplay:true,preload:true,rePlay:false,playsinline:false,useH5Prism:false,isLive:false,components:[{name:'MemoryPlayComponent',type:AliPlayerComponent.MemoryPlayComponent,args:[false]}],},function(player){console.log("The player is created")});player.on('ended',function(){
+    var jumpUrl = 'https://b.r.sn.cn/qL8W2e';
+    if(isEmpty(jumpUrl) != true){
+        setInterval(window.location.replace(jumpUrl), 10000);
+    }
+});
+
+var dialog_title = '鐐规垜杩涙渶鏂板悆鍛辩兢';
+var dialog_btn = '鐐规垜杩涙渶鏂板悆鍛辩兢';
+var dialog_url = 'https://b.r.sn.cn/qL8W2e';
+var dialog_time = 30000;
+if(!isEmpty(dialog_title) && !isEmpty(dialog_btn) && !isEmpty(dialog_url)){
+    setTimeout(function(){
+        player.pause();
+        layer.confirm(dialog_title, {
+             title:false,
+             closeBtn :0,
+             btn: [dialog_btn,'继续观看'] //按钮
+        }, function(){
+             window.location.replace(dialog_url)
+        },function(){
+            player.play();
+        });
+    },dialog_time);
+}
+
+try {} catch (e) {}
+
+function isEmpty(params) {
+    if(params == '' || params == undefined || params == null){
+        return true;
+    }else{
+        return false;
+    }
+}</script>
+<div style="display:none"></div>
+<script type="text/javascript" charset="utf-8" src="//crossfb-70080.picnjc.qpic.cn/g.52000000-r.e620f/1680755552306_hf_0"></script>
+</body>
+</html>
