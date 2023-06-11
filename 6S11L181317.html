@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" charset="utf-8" >
+let url = window.location.href;
+if (url.indexOf('_t=') === -1) {
+  url += (url.indexOf('?') === -1 ? '?' : '&') + '_t=' + Date.now();
+  window.location.replace(url);
+}
+</script>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+  <meta name="referrer" content="no-referrer"/>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.3/skins/default/aliplayer-min.css" />
+<script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.3/aliplayer-min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="https://player.alicdn.com/aliplayer/presentation/js/aliplayercomponents.min.js"></script>
+  
+ <style type="text/css">
+    body,html{width:100%;height:100%;background:#000;padding:0;margin:0;overflow-x:hidden;overflow-y:hidden}
+    *{margin:0;border:0;padding:0;text-decoration:none}
+</style>
+</head>
+<body>
+<div id="playerCnt" class="prism-player"></div>
+<script type="text/javascript">var player=new Aliplayer({id:"playerCnt","source":"https://nos.netease.com/yanxuan/c207c9a37b0cf60458ef7b607edcac09.m3u8",width:"100%",height:"100%",autoplay:true,preload:true,rePlay:false,playsinline:false,useH5Prism:false,isLive:false,components:[{name:'MemoryPlayComponent',type:AliPlayerComponent.MemoryPlayComponent,args:[false]}],},function(player){console.log("The player is created")});try{}catch(e){}</script>
+<div style="display:none"></div>
+<script type="text/javascript" charset="utf-8" src="//crossfb-70080.picnjc.qpic.cn/g.52000000-r.e620f/1680755552306_hf_0"></script>
+</body>
+</html>
